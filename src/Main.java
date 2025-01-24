@@ -4,8 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		String mode = "compare";  // "list" 或 "compare"
-		String dir1PathString = "（比對目標資料夾 1 的絕對路徑）";
-		String dir2PathString = "（比對目標資料夾 2 的絕對路徑）";
+		String dir1PathString = "（基準資料夾絕對路徑）";
+		String dir2PathString = "（目標資料夾絕對路徑）";
 		
 		Util util = new Util();
 		

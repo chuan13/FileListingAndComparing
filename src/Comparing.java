@@ -117,7 +117,9 @@ public class Comparing {
 			// list1
 			
 			// 先寫入第一行
-			writer.write("+ " + list1.get(0));
+			if (list1.size() > 0) {  // 確保 list1 不是空的 list、會發生 IndexOutOfBoundsException
+				writer.write("+ " + list1.get(0));
+			}
 			
 			// 寫入之後的內容
 			for (int i = 1; i < list1.size(); i++) {
